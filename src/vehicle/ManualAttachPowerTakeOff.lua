@@ -19,7 +19,7 @@ end
 
 function ManualAttachPowerTakeOff.registerOverwrittenFunctions(vehicleType)
     SpecializationUtil.registerOverwrittenFunction(vehicleType, "getCanBeTurnedOn", ManualAttachPowerTakeOff.inj_getCanBeTurnedOn)
-    SpecializationUtil.registerOverwrittenFunction(vehicleType, "getCanDischargeToObject", ManualAttachPowerTakeOff.inj_getCanDischargeToObject)
+ --   SpecializationUtil.registerOverwrittenFunction(vehicleType, "getCanDischargeToObject", ManualAttachPowerTakeOff.inj_getCanDischargeToObject)
     SpecializationUtil.registerOverwrittenFunction(vehicleType, "getCanDischargeToGround", ManualAttachPowerTakeOff.inj_getCanDischargeToGround)
 end
 
